@@ -1,0 +1,50 @@
+body {
+	background-color: #29363f;
+}
+.logo {
+	margin: 0;
+	font-size: 3em;
+	font-weight: 200;
+	font-family: "Righteous", cursive;
+	text-align: center;
+	text-shadow: 1px 1px 0 #333333;
+	line-height: 70px;
+}
+.logo a {
+	color: white
+}
+.logo a:hover,
+.logo a:focus {
+	color: white;
+	text-decoration: none;
+}
+.signup {
+	background-color: #f6f6f6;
+	width: 50%;
+	border-radius: 7px;
+	margin: 10px auto 0;
+}
+.signup {
+	padding: 30px 20px;
+	margin-bottom: 30px;
+}
+.signup p {
+	text-align: center;
+}
+.signup form {
+	margin-top: 20px;
+}
+.signup h2 {
+	margin: 0;
+}
+.signup hr {
+	border-top: 1px solid #cecbcb;
+}
+@media only screen and (max-width: 600px) {
+	div.signup {
+		width: 300px;
+	}
+	div.signup h2 {
+		font-size: 24px;
+	}
+}

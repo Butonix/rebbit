@@ -1,0 +1,29 @@
+.profile {
+	margin-top: 1em;
+}
+.user-profile .picture {
+	width: 200px;
+	border-radius: 5px;
+}
+.user-profile ul {
+	padding: 0;
+	margin-top: .6em;
+}
+.user-profile ul li {
+	list-style: none;
+}
+.tile_count .tile_stats_count {
+	border-bottom: 1px solid white;
+}
+.compose {
+	border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 500px) {
+	body div.page-header a {
+		width: 100%;
+		margin: 5px 0px;
+	}
+	div.profile {
+		float: left;
+	}
+}

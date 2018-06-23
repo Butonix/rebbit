@@ -1,0 +1,31 @@
+{% extends 'dark_base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+
+
+{% block title %}Login - erebbit{% endblock %}
+
+{% block head %}
+  <link href="{% static 'css/cover.css' %}" rel="stylesheet">
+{% endblock head %}
+
+{% block main %}
+    <div class="container">
+
+      <form method="post" action="{% url 'login' %}" role="form">
+        {% csrf_token %}
+        <h2>Login to your account</h2>
+        <br>
+        <label for="username" class="sr-only">Username</label>
+        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autofocus>
+        <br>
+        <label for="password" class="sr-only">Password</label>
+        <input type="password" class="form-control" placeholder="Password" id="password" name="password" required>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+        <br>
+        <a href="{% url 'password_reset' %}" class="reset_password">Forgot password?</a>
+      </form>
+
+    </div> <!-- /container -->
+{% endblock %}
