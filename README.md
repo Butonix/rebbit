@@ -1,6 +1,6 @@
 # Rebbit
 
-First version of **[Erebbit](https://github.com/thetruefuss/erebbit/)** stating "A Socially-Oriented Platform to help developers connect with other developers and share what they know" built with [Python](https://www.python.org/) using the [Django Web Framework](https://www.djangoproject.com/).
+First version of **[Elmer](https://github.com/thetruefuss/elmer/)** stating "A Socially-Oriented Platform to help developers connect with other developers and share what they know" built with [Python](https://www.python.org/) using the [Django Web Framework](https://www.djangoproject.com/).
 
 ### Demo
 
